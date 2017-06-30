@@ -35,6 +35,12 @@ public class OAuthAuthorizationConfiguration extends AuthorizationServerConfigur
                 .resourceIds("Resource Server")//
                 .scopes("read", "write")//
                 .accessTokenValiditySeconds(3600);
+        //                //--aplicação
+        //                .and().withClient("aplicacao").secret("secret")//
+        //                .authorizedGrantTypes("client_credentials", "password")//
+        //                .resourceIds("Aplicacao Server")//
+        //                .scopes("read", "write")//
+        //                .accessTokenValiditySeconds(3600);
     }
 
     @Override
