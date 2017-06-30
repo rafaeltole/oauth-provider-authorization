@@ -1,0 +1,5 @@
+  --- Tutorial
+  https://projects.spring.io/spring-security-oauth/docs/oauth2.html
+
+  --- obter token
+  curl -X POST -k --user 'client:secret' -d 'grant_type=client_credentials' http://localhost:8180/oauth-provider-authorization/oauth/token
